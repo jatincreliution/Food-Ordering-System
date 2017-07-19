@@ -1,0 +1,8 @@
+database name: shop_master_db
+table name   : 1.shop_master
+                       column names: shop_id(primary key),shop_name,shop_location,shop_contactno,shop_cuisinetype
+               
+
+
+               2.shop_menu_master
+                       column names: shop_id,item_name,item_price

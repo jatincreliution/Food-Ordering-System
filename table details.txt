@@ -1,0 +1,16 @@
+1.shop_master
+
+shop_master (shop_id integer primary key, shop_name char(15), shop_location char(20), shop_contactno integer(10), shop_cuisinetype char(15))'
+
+
+2. shop_menu
+
+shop_menu (item_id integer primary key,shop_id integer,item_name char(15),item_price interger(4))'
+
+3.customer_master
+
+customer_master (cust_id integer primary key, cust_fname char(20), cust_lname char(20),' \
+         'cust_address char(30), cust_pincode integer(8), mobileno integer(10))'
+
+
+
